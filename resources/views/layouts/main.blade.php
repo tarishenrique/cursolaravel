@@ -20,7 +20,7 @@
                         <a href="/" class="nav-link">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Criar Eventos</a>
+                        <a href="/events/create" class="nav-link">Criar Eventos</a>
                     </li>
                     <li class="nav-item">
                         <a href="/" class="nav-link">Entrar</a>
@@ -41,6 +41,6 @@
     <footer>
         <p>Taris Henrique &copy; 2022</p>
     </footer>
-    
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </body>
 </html>
