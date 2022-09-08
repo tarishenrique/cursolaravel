@@ -3,8 +3,16 @@
 @section('title', 'Início')
 @section('content')
     
+    @foreach ($events as $event)
+    <p> {{ $event ->title }} -- {{ $event-> description }} </p>
+    @endforeach
 
 
+
+
+
+
+{{-- 
     <h1>Algum título</h1>
     @if (10 > 5)
     <p>A condição é true</p>
@@ -42,7 +50,7 @@
 
 
     <!-- Comentário em HTML -->
-    {{-- Comentário no Blade --}}
+    Comentário no Blade --}}
 
 @endsection
 
